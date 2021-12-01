@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"regexp"
 	"runtime"
-	"runtime/debug"
+	//"runtime/debug"
 	"strings"
 	"sync"
 
@@ -115,10 +115,12 @@ func main() {
 			fmt.Println(Version)
 			return
 		}
+    /*
 		if buildInfo, ok := debug.ReadBuildInfo(); ok {
 			fmt.Println(buildInfo.Main.Version)
 			return
 		}
+    */
 		fmt.Println("(unknown)")
 		return
 	}
