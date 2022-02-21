@@ -1,0 +1,13 @@
+[
+  {
+    title: 'mkcert.git'
+    group: 'syn-net'
+    paths: [
+      'syn-net/mkcert.git'
+    ]
+    devMode: false
+    settings:
+      'editor.tabLength': 2
+      'editor.showInvisibles': true
+  }
+]
